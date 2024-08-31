@@ -1,10 +1,15 @@
+import React from 'react'
+import LocationSearch from './components/LocationSearch'
+import Map from './components/Map'
+
 
 function App() {
 
   return (
-    <>
-      <h1>Happy Coding</h1>
-    </>
+    <div className="App">
+      <LocationSearch />
+      <Map />
+    </div>
   )
 }
 
